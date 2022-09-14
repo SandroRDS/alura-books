@@ -38,3 +38,11 @@
     background-color: var(--laranja-titulo);
     display: inline-block;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1728px) {
+    
+}
