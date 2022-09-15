@@ -15,7 +15,7 @@
     --azul-escuro-texto: #16476A;
     --laranja-titulo: #EB9B00;
     --gradiente-azul-escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --gradiente-laranja: linear-gradient(to right, #eb9b00, #efa82a, #f3b443, #f7c05a, #fbcc70);
+    --gradiente-laranja: linear-gradient(to right bottom, #db9953, #e3a356, #ebad59, #f2b75c, #f9c15f);;
     --fundo-rodape: #F9F9F9;
 }
 

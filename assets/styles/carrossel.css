@@ -77,6 +77,13 @@
         font-size: 0.6em;
         color: var(--branco-principal);
     }
+
+    .swiper-button-next:hover, .swiper-button-prev:hover
+    {
+        background: var(--gradiente-laranja);
+        transform: scale(1.2);
+        transition: all 500ms;
+    }
 }
 
 @media screen and (min-width: 1728px) {
