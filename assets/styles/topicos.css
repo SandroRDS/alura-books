@@ -58,6 +58,8 @@ li.topicos__container__lista__itens
     .topicos__container__lista
     {
         gap: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     li.topicos__container__lista__itens
@@ -66,6 +68,7 @@ li.topicos__container__lista__itens
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1728px) 
+{
     
 }
