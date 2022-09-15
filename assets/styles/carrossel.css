@@ -60,6 +60,7 @@
         align-items: center;
         justify-content: center;
         background: linear-gradient(225deg, #063251, #185c8d);
+        transition: all 500ms;
     }
 
     .swiper .swiper-button-next
@@ -82,7 +83,6 @@
     {
         background: var(--gradiente-laranja);
         transform: scale(1.2);
-        transition: all 500ms;
     }
 }
 
