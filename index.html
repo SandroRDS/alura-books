@@ -229,6 +229,20 @@
             type: 'bullets',
         },
         });
+
+        const swiperInst = document.querySelector(".swiper").swiper;
+        const buttonPrev = document.querySelector(".swiper-button-prev");
+        const buttonNext = document.querySelector(".swiper-button-next");
+
+        buttonPrev.onclick = function(){
+            swiperInst.slidePrev();
+        };
+
+        buttonNext.onclick = function(){
+            swiperInst.slideNext();
+        };
+
+        
     </script>
 </body>
 </html>
