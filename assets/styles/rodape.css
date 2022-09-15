@@ -53,6 +53,11 @@
         gap: 0.5em;
     }
 
+    .rodape__secao__lista__itens a:hover
+    {
+        text-decoration: underline;
+    }
+
     .rodape__secao__lista__itens::before
     {
         content: "";
