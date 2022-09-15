@@ -5,8 +5,141 @@
     border-top: 1px solid #858585;
 }
 
-@media screen and (min-width: 1024px) {
-    
+.rodape__secao
+{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .rodape
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+        padding: 4.25em 1.5em;
+    }
+
+    .rodape__logo
+    {
+        font-size: 1.5em;
+        margin-top: .5em;
+    }
+
+    .rodape__secao
+    {
+        display: block;
+        font-size: .875em;
+    }
+
+    .rodape__secao__titulo
+    {
+        color: var(--titulo-secundario-rodape);
+    }
+
+    .rodape__secao__lista
+    {
+        display: grid;
+        margin-top: 1.25em;
+        row-gap: 1.25em;
+    }
+
+    .rodape__secao__lista__itens
+    {
+        color: var(--itens-rodape);
+
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .rodape__secao__lista__itens::before
+    {
+        content: "";
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+    }
+
+    .logo_caelum::before
+    {
+        background: url(../img/logo_caelum.svg);
+    }
+
+    .logo_casa_do_codigo::before
+    {
+        background: url(../img/logo_casa_do_codigo.svg);
+    }
+
+    .logo_alura::before
+    {
+        background: url(../img/logo_alura.svg);
+    }
+
+    .logo_alura_empresas::before
+    {
+        background: url(../img/logo_alura_empresas.svg);
+    }
+
+    .logo_alura_latam::before
+    {
+        background: url(../img/logo_alura_latam.svg);
+    }
+
+    .logo_alura_start::before
+    {
+        background: url(../img/logo_alura_start.svg);
+    }
+
+    .logo_music_dot::before
+    {
+        background: url(../img/logo_music_dot.svg);
+    }
+
+    .logo_alura_lingua::before
+    {
+        background: url(../img/logo_alura_lingua.svg);
+    }
+
+    .logo_pm3::before
+    {
+        background: url(../img/logo_pm3.svg);
+    }
+
+    .logo_hipsters_ponto_tech::before
+    {
+        background: url(../img/logo_hipsters_tech.svg);
+    }
+
+    .logo_scuba_dev::before
+    {
+        background: url(../img/logo_scuba_dev.svg);
+    }
+
+    .logo_layers_ponto_tech::before
+    {
+        background: url(../img/logo_layers_tech.svg);
+    }
+
+    .logo_like_a_boss::before
+    {
+        background: url(../img/logo_like_a_boss.svg);
+    }
+
+    .logo_carreira_sem_fronteira::before
+    {
+        background: url(../img/logo_carreira_sem_fronteira.svg);
+    }
+
+    .logo_hipsters_ponto_jobs::before
+    {
+        background: url(../img/logo_hipsters_jobs.svg);
+    }
+
+    .logo_guj::before
+    {
+        background: url(../img/logo_guj.svg);
+    }
 }
 
 @media screen and (min-width: 1728px) {

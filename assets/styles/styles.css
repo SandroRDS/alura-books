@@ -17,6 +17,8 @@
     --gradiente-azul-escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --gradiente-laranja: linear-gradient(to right bottom, #db9953, #e3a356, #ebad59, #f2b75c, #f9c15f);;
     --fundo-rodape: #F9F9F9;
+    --titulo-secundario-rodape: #858585;
+    --itens-rodape: #474646;
 }
 
 body
