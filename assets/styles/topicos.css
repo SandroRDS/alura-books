@@ -33,14 +33,19 @@
 .topicos__container__lista__itens
 {
     font-weight: 700;
-    padding: 1em 0.875em;
     background-color: var(--laranja-titulo);
     display: inline-block;
 }
 
-li.topicos__container__lista__itens
+a.topicos__container__lista__itens
 {
+    padding: 1em 0.875em;
     font-size: 0.875em;
+}
+
+a.topicos__container__lista__itens:hover
+{
+    background-color: rgb(223, 132, 12);
 }
 
 @media screen and (min-width: 1024px) 
