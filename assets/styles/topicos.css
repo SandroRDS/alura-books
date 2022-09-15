@@ -33,14 +33,37 @@
 .topicos__container__lista__itens
 {
     font-weight: 700;
-    font-size: 0.9em;
     padding: 1em 0.875em;
     background-color: var(--laranja-titulo);
     display: inline-block;
 }
 
-@media screen and (min-width: 1024px) {
-    
+li.topicos__container__lista__itens
+{
+    font-size: 0.875em;
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .topicos__container
+    {
+        padding: 2em;
+    }
+
+    .topicos__container__titulo
+    {
+        font-size: 1.5em;
+    }
+
+    .topicos__container__lista
+    {
+        gap: 1.5em;
+    }
+
+    li.topicos__container__lista__itens
+    {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 1728px) {
