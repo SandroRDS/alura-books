@@ -65,7 +65,7 @@
         <input type="search" class="banner_pesquisa__barra_pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
 
-    <section class="carrossel">
+    <section class="carrossel lancamentos">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
         
         <!-- Slider main container -->
@@ -119,7 +119,7 @@
         </div>
     </aside>
 
-    <section class="carrossel">
+    <section class="carrossel vendidos">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
         
         <!-- Slider main container -->
@@ -230,16 +230,29 @@
         },
         });
 
-        const swiperInst = document.querySelector(".swiper").swiper;
-        const buttonPrev = document.querySelector(".swiper-button-prev");
-        const buttonNext = document.querySelector(".swiper-button-next");
+        const swiperInstLancamentos = document.querySelector(".lancamentos .swiper").swiper;
+        const buttonPrevLancamentos = document.querySelector(".lancamentos .swiper-button-prev");
+        const buttonNextLancamentos = document.querySelector(".lancamentos .swiper-button-next");
 
-        buttonPrev.onclick = function(){
-            swiperInst.slidePrev();
+        buttonPrevLancamentos.onclick = function(){
+            swiperInstLancamentos.slidePrev();
         };
 
-        buttonNext.onclick = function(){
-            swiperInst.slideNext();
+        buttonNextLancamentos.onclick = function(){
+            swiperInstLancamentos.slideNext();
+        };
+
+
+        const swiperInstVendidos = document.querySelector(".vendidos .swiper").swiper;
+        const buttonPrevVendidos = document.querySelector(".vendidos .swiper-button-prev");
+        const buttonNextVendidos = document.querySelector(".vendidos .swiper-button-next");
+
+        buttonPrevVendidos.onclick = function(){
+            swiperInstVendidos.slidePrev();
+        };
+
+        buttonNextVendidos.onclick = function(){
+            swiperInstVendidos.slideNext();
         };
 
         
