@@ -154,7 +154,7 @@
     <aside class="card">
         <div class="card__conteudo">
             <div class="card__conteudo__texto">
-                <img src="assets/img/estrelas.svg" alt="Classificação 5 estrelas">
+                <img class="card__conteudo__texto__estrelas" src="assets/img/estrelas.svg" alt="Classificação 5 estrelas">
                 <b class="card__conteudo__texto__destaque">Autora do Mês</b>
                 <h3 class="card__conteudo__texto__titulo">Juliana Agarikov</h3>
                 <p class="card__conteudo__texto__descricao">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
@@ -228,6 +228,7 @@
             el: '.swiper-pagination',
             type: 'bullets',
         },
+        effect: "coverflow",
         });
 
         const swiperInstLancamentos = document.querySelector(".lancamentos .swiper").swiper;
