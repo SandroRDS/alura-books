@@ -48,6 +48,10 @@ li.topicos__container__lista__itens
     .topicos__container
     {
         padding: 2em;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .topicos__container__titulo
@@ -58,8 +62,7 @@ li.topicos__container__lista__itens
     .topicos__container__lista
     {
         gap: 1.5em;
-        padding-left: 2em;
-        padding-right: 2em;
+        width: 80%;
     }
 
     li.topicos__container__lista__itens
