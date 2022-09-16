@@ -102,6 +102,12 @@
     padding: 1em;
 }
 
+.cabecalho__icones__sacola span,
+.cabecalho__icones__perfil span
+{
+    display: none;
+}
+
 .opcoes
 {
     display: none;
@@ -209,6 +215,43 @@
 
 
 
-@media screen and (min-width: 1728px) {
-    
+@media screen and (min-width: 1728px) 
+{
+    .cabecalho
+    {
+        justify-content: flex-start;
+    }
+
+    .cabecalho__icones__logo
+    {
+        padding: 1.5em 2.5em 1.5em 5em;
+    }
+
+    .cabecalho__icones:nth-child(3)
+    {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        gap: 2em;
+        margin-right: 2%;
+    }
+
+    .cabecalho__icones__sacola,
+    .cabecalho__icones__perfil
+    {
+        gap: 0.5em;
+        font-size: 1.25em;
+    }
+
+    .cabecalho__icones__sacola:hover,
+    .cabecalho__icones__perfil:hover
+    {
+        text-decoration: underline var(--azul-escuro-texto) 4px;
+    }
+
+    .cabecalho__icones__sacola span,
+    .cabecalho__icones__perfil span
+    {
+        display: inline;
+    }
 }
