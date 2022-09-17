@@ -157,10 +157,10 @@
     background-color: var(--cinza-fundo-input-login);
     background-repeat: no-repeat;
     background-size: 20px;
-    background-position: 5%;
+    background-position: 16px;
     height: 28px;
     border-radius: 8px;
-    padding: .5em 15%;
+    padding: .5em 46px;
 }
 
 .login__campo__input[type="text"]:focus, 
