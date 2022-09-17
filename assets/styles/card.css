@@ -13,7 +13,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.6fr 0.4fr;
     gap: 0.5em;
 }
 
@@ -34,7 +34,7 @@
     color: var(--laranja-titulo);
     font-weight: 700;
     display: block;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .card__conteudo__texto__titulo
@@ -42,13 +42,12 @@
     color: var(--azul-escuro-texto);
     font-size: 1.125em;
     font-weight: 700;
-    line-height: 27px;
+    line-height: 20px;
 }
 
 .card__conteudo__texto__descricao
 {
     font-size: 0.875em;
-    line-height: 21px;
     width: 90%;
 }
 
