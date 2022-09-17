@@ -10,21 +10,30 @@
 
 :root
 {
-    --cor-de-fundo: #EBECEE;
-    --branco-principal: #FFFFFF;
-    --azul-escuro-texto: #16476A;
-    --laranja-titulo: #EB9B00;
+    --cinza-principal-fundo: #EBECEE;
+    --cinza-secundario-fundo: #F9F9F9;
+    --cinza-titulo-secao-rodape: #858585;
+    --cinza-itens-rodape: #474646;
+    --cinza-borda-rodape: #858585;
+    --cinza-header-menu: whitesmoke;
+    --preto-semitransparente: rgba(0, 0, 0, 0.85);
+    --azul-escuro-sombra-botao: #06304e;
+
+    --branco: #FFFFFF;
+    --azul-escuro-medio: #16476A;
+    --azul-escuro-dark: #002F52;
+    --laranja: #EB9B00;
+    --laranja-hover: #DF840C;
+
     --gradiente-azul-escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --gradiente-laranja: linear-gradient(to right bottom, #db9953, #e3a356, #ebad59, #f2b75c, #f9c15f);;
-    --fundo-rodape: #F9F9F9;
-    --titulo-secundario-rodape: #858585;
-    --itens-rodape: #474646;
+    --gradiente-azul-escuro-carrossel-botao: linear-gradient(225deg, #063251, #185c8d);
+    --gradiente-laranja: linear-gradient(to right bottom, #db9953, #e3a356, #ebad59, #f2b75c, #f9c15f);
+    --gradiente-cinza-banner-clear: linear-gradient(to right bottom, #e7e8eb, #d9dddf, #ccd1d1, #c2c5c3, #b9b9b5);
 }
 
 body
 {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cinza-principal-fundo);
     font-family: 'Poppins';
     font-weight: 400;
 }
-

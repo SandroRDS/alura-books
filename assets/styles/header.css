@@ -1,7 +1,7 @@
 .cabecalho
 {
     font-size: 1rem;
-    background-color: var(--branco-principal);
+    background-color: var(--branco);
     width: 100%;
     box-sizing: border-box;
     position: relative;
@@ -51,7 +51,7 @@
 {
     position: absolute;
     top: 100%;
-    background-color: whitesmoke;
+    background-color: var(--cinza-header-menu);
     width: 65%;
 
     display: none;
@@ -66,14 +66,14 @@
 
 .menu__lista__titulo
 {
-    color: var(--laranja-titulo);
+    color: var(--laranja);
     font-weight: 700;
     padding: 1em;
 }
 
 .menu__lista__links
 {
-    color: var(--azul-escuro-texto);
+    color: var(--azul-escuro-dark);
     text-transform: uppercase;
     padding: 1em;
 }
@@ -81,7 +81,7 @@
 .menu__lista__links:active
 {
     background: var(--gradiente-azul-escuro);
-    color: var(--branco-principal);
+    color: var(--branco);
 }
 
 .cabecalho__icones__logo
@@ -174,7 +174,7 @@
     .menu__lista__links:hover
     {
         background: var(--gradiente-azul-escuro);
-        color: var(--branco-principal);
+        color: var(--branco);
         cursor: pointer;
     }
 
@@ -191,8 +191,8 @@
 
     #opcoes__checkbox:checked + .opcoes__itens
     {
-        background: var(--gradiente-azul-escuro);
-        color: var(--branco-principal);
+        background: var(--azul-escuro-dark);
+        color: var(--branco);
     }
 
     #opcoes__checkbox:checked + .opcoes__itens > .opcoes__itens:hover
@@ -208,8 +208,8 @@
 
     a.opcoes__itens:hover, .opcoes__itens:first-child:hover
     {
-        background: var(--gradiente-azul-escuro);
-        color: var(--branco-principal);
+        background: var(--azul-escuro-dark);
+        color: var(--branco);
     }
 }
 
@@ -246,7 +246,7 @@
     .cabecalho__icones__sacola:hover,
     .cabecalho__icones__perfil:hover
     {
-        text-decoration: underline var(--azul-escuro-texto) 4px;
+        text-decoration: underline var(--azul-escuro-dark) 4px;
     }
 
     .cabecalho__icones__sacola span,

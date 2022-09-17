@@ -1,8 +1,8 @@
 .rodape
 {
     padding: 1.125em 1.5em;
-    background-color: var(--fundo-rodape);
-    border-top: 1px solid #858585;
+    background-color: var(--cinza-secundario-fundo);
+    border-top: 1px solid var(--cinza-borda-rodape);
 }
 
 .rodape__secao
@@ -34,7 +34,7 @@
 
     .rodape__secao__titulo
     {
-        color: var(--titulo-secundario-rodape);
+        color: var(--cinza-titulo-secao-rodape);
     }
 
     .rodape__secao__lista
@@ -46,7 +46,7 @@
 
     .rodape__secao__lista__itens
     {
-        color: var(--itens-rodape);
+        color: var(--cinza-itens-rodape);
 
         display: flex;
         align-items: center;
@@ -152,7 +152,7 @@
     .rodape__secao:nth-child(n+1)
     {
         border-left: 1px;
-        border-color: #858585;
+        border-color: var(--cinza-borda-rodape);
         border-style: solid;
         padding-left: 1em;
     }    

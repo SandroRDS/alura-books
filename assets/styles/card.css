@@ -6,7 +6,7 @@
 .card__conteudo
 {
     width: 100%;
-    background-color: var(--branco-principal);
+    background-color: var(--branco);
     padding: 1em;
     box-sizing: border-box;
     border-radius: 10px;
@@ -31,7 +31,7 @@
 
 .card__conteudo__texto__destaque
 {
-    color: var(--laranja-titulo);
+    color: var(--laranja);
     font-weight: 700;
     display: block;
     line-height: 20px;
@@ -39,7 +39,7 @@
 
 .card__conteudo__texto__titulo
 {
-    color: var(--azul-escuro-texto);
+    color: var(--azul-escuro-dark);
     font-size: 1.125em;
     font-weight: 700;
     line-height: 20px;
@@ -47,6 +47,7 @@
 
 .card__conteudo__texto__descricao
 {
+    color: var(--preto-semitransparente);
     font-size: 0.875em;
     width: 90%;
 }
@@ -65,9 +66,9 @@
 
 .card__conteudo__saiba_mais__botao
 {
-    background: var(--laranja-titulo);
+    background: var(--laranja);
     font-weight: 700;
-    color: var(--branco-principal);
+    color: var(--branco);
     height: 100%;
     box-sizing: border-box;
 

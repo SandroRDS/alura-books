@@ -6,13 +6,13 @@
 
 .carrossel__titulo
 {
-    color: var(--laranja-titulo);
+    color: var(--laranja);
     font-weight: 700;
     font-size: 1.125em;
     text-transform: uppercase;
     text-align: center;
     padding: 1.25em 0 0.5em;
-    background-color: var(--branco-principal);
+    background-color: var(--branco);
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev, .swiper-scrollbar
@@ -59,26 +59,26 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(225deg, #063251, #185c8d);
+        background: var(--gradiente-azul-escuro-carrossel-botao);
         transition: all 500ms;
     }
 
     .swiper .swiper-button-next
     {
-        box-shadow: 2px 2px 6px #06304e;
+        box-shadow: 2px 2px 6px var(--azul-escuro-sombra-botao);
         right: 2%;
     }
 
     .swiper .swiper-button-prev
     {
-        box-shadow: -2px 2px 6px #06304e;
+        box-shadow: -2px 2px 6px var(--azul-escuro-sombra-botao);
         left: 2%;
     }
 
     .swiper .swiper-button-next::after, .swiper .swiper-button-prev::after
     {
         font-size: 0.6em;
-        color: var(--branco-principal);
+        color: var(--branco);
     }
 
     .swiper-button-next:hover, .swiper-button-prev:hover
