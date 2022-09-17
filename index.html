@@ -58,10 +58,29 @@
                 <img src="assets/img/compras.svg" alt="Carrinho de Compras">
                 <span>Minha sacola</span>
             </a>
-            <a href="#" class="cabecalho__icones__perfil">
+            <input type="checkbox" id="perfil_checkbox">
+            <label for="perfil_checkbox" class="cabecalho__icones__perfil">
                 <img src="assets/img/perfil.svg" alt="Meu Perfil">
                 <span>Meu perfil</span>
-            </a>
+            </label>
+            <form class="login">
+                <fieldset class="login__campo usuario">
+                    <label class="login__campo__label" for="usuario">Usuário</label>
+                    <input class="login__campo__input" type="text" name="" id="usuario">
+                </fieldset>
+                <fieldset class="login__campo senha">
+                    <label class="login__campo__label" for="senha">Senha</label>
+                    <input class="login__campo__input" type="password" name="" id="senha">
+                </fieldset>
+                <fieldset class="login__campo checkbox">
+                    <input type="checkbox" name="" id="checkbox_lembre">
+                    <label class="login__campo__label" for="checkbox_lembre">Lembre de mim</label>
+                </fieldset>
+                <fieldset class="login__campo submit">
+                    <input class="login__campo__input" type="submit" value="Fazer Login">
+                    <p class="login__campo__link">Ainda não possui uma conta ? <a href="#" class="destaque">Cadastre-se agora.</a></p>
+                </fieldset>
+            </form>
         </div>
     </header>
 
@@ -302,9 +321,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-        var effect, space;
+        var space;
+        var viewportWidth = window.screen.width;
         
-        if(window.screen.width >= 1728)
+        if(viewportWidth >= 1728)
         {
             space = 60;
         }
@@ -348,6 +368,23 @@
             swiperInstVendidos.slideNext();
         };
 
+        const icone_perfil = document.querySelector(".cabecalho__icones__perfil");
+        const container_login = document.querySelector(".login");
+        var loginVisivel = false;
+
+        icone_perfil.onclick = function()
+        {    
+            if(loginVisivel)
+            {
+                container_login.style.display = "none";
+            }
+            else
+            {
+                container_login.style.display = "grid";
+            }
+
+            loginVisivel = !loginVisivel;
+        };
         
     </script>
 </body>
