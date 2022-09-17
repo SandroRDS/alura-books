@@ -10,7 +10,7 @@
 {
     background: var(--gradiente-azul-escuro);
     color: var(--branco-principal);
-    padding: 1.5em 0em;
+    padding: 1.5em 1em;
 }
 
 .topicos__container__titulo
@@ -78,5 +78,13 @@ a.topicos__container__lista__itens:hover
 
 @media screen and (min-width: 1728px) 
 {
-    
+    .topicos__container
+    {
+        padding: 4em 25%;
+    }
+
+    .topicos__container__titulo
+    {
+        font-size: 2em;
+    }
 }

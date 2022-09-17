@@ -147,6 +147,13 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
-    
+@media screen and (min-width: 1728px) 
+{
+    .rodape__secao:nth-child(n+1)
+    {
+        border-left: 1px;
+        border-color: #858585;
+        border-style: solid;
+        padding-left: 1em;
+    }    
 }

@@ -107,6 +107,27 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1728px) 
+{
+    .card
+    {
+        padding: 0;
+        display: inline-block;
+        width: 40%;
+    }
+
+    .card__conteudo
+    {
+        width: 100%;
+    }
     
+    .card__conteudo__texto__destaque
+    {
+        font-size: 2em;
+    }
+
+    .card__conteudo__texto__descricao
+    {
+        font-size: 1em;
+    }
 }

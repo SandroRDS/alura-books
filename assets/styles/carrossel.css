@@ -88,6 +88,30 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
-    
+@media screen and (min-width: 1728px) 
+{
+    .carrossel__container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4.75em 0;
+        gap: 2%;
+    }
+
+    .carrossel__titulo
+    {
+        font-size: 2em;
+    }
+
+    .carrossel__container .swiper
+    {
+        width: 40%;
+        margin: 0;
+    }
+
+    .swiper .swiper-pagination
+    {
+        padding: 0 0 2em 0;
+    }
 }
