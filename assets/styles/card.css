@@ -124,10 +124,12 @@
     .card__conteudo__texto__destaque
     {
         font-size: 2em;
+        line-height: 48px;
     }
 
     .card__conteudo__texto__descricao
     {
         font-size: 1em;
+        line-height: 24px;
     }
 }
