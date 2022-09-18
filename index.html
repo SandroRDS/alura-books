@@ -134,8 +134,8 @@
                     </div>
         
                     <div class="card__conteudo__botoes">
-                        <button><img src="assets/img/favoritos.svg" alt="Adicionar aos Meus Favoritos"></button>
-                        <button><img src="assets/img/compras.svg" alt="Adicionar à Minha Sacola"></button>
+                        <button class="botao_favoritar" onclick="favoritar('lancamentos')"><img src="assets/img/favoritos.svg" alt="Adicionar aos Meus Favoritos"></button>
+                        <button class="botao_sacola"><img src="assets/img/compras.svg" alt="Adicionar à Minha Sacola"></button>
                     </div>
         
                     <div class="card__conteudo__saiba_mais">
@@ -192,8 +192,8 @@
                     </div>
         
                     <div class="card__conteudo__botoes">
-                        <button><img src="assets/img/favoritos.svg" alt="Adicionar aos Meus Favoritos"></button>
-                        <button><img src="assets/img/compras.svg" alt="Adicionar à Minha Sacola"></button>
+                        <button class="botao_favoritar" onclick="favoritar('vendidos')"><img src="assets/img/favoritos.svg" alt="Adicionar aos Meus Favoritos"></button>
+                        <button class="botao_sacola"><img src="assets/img/compras.svg" alt="Adicionar à Minha Sacola"></button>
                     </div>
         
                     <div class="card__conteudo__saiba_mais">
@@ -385,7 +385,24 @@
 
             loginVisivel = !loginVisivel;
         };
-        
+
+        const favoritos = {"lancamentos": false, "vendidos": false}
+
+        function favoritar(botao)
+        {
+            if(favoritos[botao])
+            {
+                var botao_favoritar = document.querySelector(`.${botao} .botao_favoritar img`);
+                botao_favoritar.src = "assets/img/favoritos.svg";
+            }
+            else
+            {
+                var botao_favoritar = document.querySelector(`.${botao} .botao_favoritar img`);
+                botao_favoritar.src = "assets/img/favoritos_ativo.png";
+            }
+
+            favoritos[botao] = !favoritos[botao];
+        }
     </script>
 </body>
 </html>

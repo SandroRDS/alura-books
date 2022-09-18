@@ -64,6 +64,17 @@
     justify-content: space-around;
 }
 
+.card__conteudo__botoes button
+{
+    cursor: pointer;
+}
+
+.botao_favoritar img
+{
+    width: 35px;
+    height: 32px;
+}
+
 .card__conteudo__saiba_mais__botao
 {
     background: var(--laranja);
