@@ -17,6 +17,8 @@
     --cinza-borda-rodape: #858585;
     --cinza-header-menu: whitesmoke;
     --cinza-fundo-input-login: #E7E6E6;
+    --cinza-itens-menu-header: rgb(167, 167, 167);
+    --cinza-opcoes-menu: #ececec;
     --preto-semitransparente: rgba(0, 0, 0, 0.85);
     --azul-escuro-sombra-botao: #06304e;
 
@@ -24,6 +26,7 @@
     --azul-escuro-medio: #16476A;
     --azul-escuro-dark: #002F52;
     --laranja: #EB9B00;
+    --laranja-transparente: rgba(235, 156, 0, 0.25);
     --laranja-hover: #DF840C;
 
     --gradiente-azul-escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
